@@ -2,7 +2,7 @@ class Passphrase
   attr_reader :passphrase
   def initialize(random_base_thirty_six)
     base_six_string = ""
-    random_base_thirty_six.each_char do |char|
+    random_base_thirty_six.upcase.each_char do |char|
       base_six_string = base_six_string + self.to_base_six(char)
     end
 
@@ -35,6 +35,8 @@ end
 
 puts "Enter random string"
 base_thirty_six_string = gets.chomp
-my_passpharse = Passphrase.new(base_thirty_six_string.upcase)
+my_passpharse = Passphrase.new(base_thirty_six_string)
 
 puts my_passpharse.passphrase.join(' ')
+puts my_passpharse.passphrase.join('')
+
