@@ -33,10 +33,11 @@ class Passphrase
   end
 end
 
-puts "Enter random string"
+puts "Enter a random string containing only letters and numbers. Lowercase letters will be capitalized."
 base_thirty_six_string = gets.chomp
 my_passpharse = Passphrase.new(base_thirty_six_string)
 
+puts "Your Diceware passphrase is:"
 puts my_passpharse.passphrase.join(' ')
 puts my_passpharse.passphrase.join('')
 
