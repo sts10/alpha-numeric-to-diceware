@@ -1,4 +1,4 @@
-# Alpha-Numeric to Diceware Passphrase (and Emoji)
+# Alpha-Numeric to Diceware Passphrase
 
 Simple Ruby script that converts an inputted alpha-numeric string to a Diceware passphrase. Learn more about Diceware passphrases [here](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/).
 
