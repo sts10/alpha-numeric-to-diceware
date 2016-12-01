@@ -35,8 +35,8 @@ end
 
 puts "Enter random string"
 base_thirty_six_string = gets.chomp
-my_passpharse = Passphrase.new(base_thirty_six_string)
+my_passphrase = Passphrase.new(base_thirty_six_string)
 
-puts my_passpharse.passphrase.join(' ')
-puts my_passpharse.passphrase.join('')
+puts my_passphrase.passphrase.join(' ')
+puts my_passphrase.passphrase.join('')
 
