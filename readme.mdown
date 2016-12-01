@@ -6,8 +6,10 @@ Uses the EFF large word list discussed in this [EFF blog post](https://www.eff.o
 
 This code currently does not even attempt to use Ruby or any other method to generate random alpha-numeric strings. That's left to the user. One way that I do this is to use a password manager like [KeePassX](https://www.keepassx.org/), which seems secure and random enough. But note that it seems to me that the best way to generate Diceware passphrases is to actually use dice.
 
-<<<<<<< HEAD
-=======
+## How to Install and Use
+
+Clone or download this repository. Run `diceware.rb` with `ruby diceware.rb`. Enter a random string of characters and/or integers. Your equivalent Diceware passphrase is outputted. 
+
 ## Emoji Passphrase(?)
 
 Inspired by this tweet:
@@ -21,7 +23,9 @@ It does this by converting each alpha-numeric character into an integer from 1 t
 
 The script outputs the string of emojis both to the terminal and to an HTML document. Not all of the emojis are displaying for me on Mac, but this whole emoji part is pretty useless tbh. The Diceware passphrase part of it is, I think, unaffected by it though. 
 
->>>>>>> 31457ea8b78b55ab3405d31d46442eeb959ea526
+You can try this by first installing Rumoji with `gem install rumoji` then running `ruby emojiware.rb`.
+
+
 ## Similar Projects
 
 As Micah Lee [points out](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/), there are [a lot of projects on GitHub that deal with Diceware passphrases](a lot of projects on GitHub). However I will give a shout out to one I like that's a bit different: [Niceware](https://github.com/diracdeltas/niceware) ([demo](https://diracdeltas.github.io/niceware/)).
