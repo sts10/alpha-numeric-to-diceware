@@ -1,0 +1,3 @@
+Emoji list is from https://github.com/mwunsch/rumoji
+
+which we'll need to use to convert the emoji titles back to the actual emojis. 
