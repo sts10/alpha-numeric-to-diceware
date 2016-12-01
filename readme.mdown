@@ -29,3 +29,5 @@ You can try this by first installing Rumoji with `gem install rumoji` then runni
 ## Similar Projects
 
 As Micah Lee [points out](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/), there are [a lot of projects on GitHub that deal with Diceware passphrases](a lot of projects on GitHub). However I will give a shout out to one I like that's a bit different: [Niceware](https://github.com/diracdeltas/niceware) ([demo](https://diracdeltas.github.io/niceware/)).
+
+If you're looking for a HEX code-to-emoji printer, checkout [emojiprint](https://github.com/sweis/emojiprint) by sweis.
