@@ -1,0 +1,11 @@
+# Alpha-Numeric to Diceware Passphrase (and Emoji)
+
+Simple Ruby script that converts an inputted alpha-numeric string to a Diceware passphrase. Learn more about Diceware passphrases [here](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/).
+
+Uses the EFF large word list discussed in this [EFF blog post](https://www.eff.org/deeplinks/2016/07/new-wordlists-random-passphrases).
+
+This code currently does not even attempt to use Ruby or any other method to generate random alpha-numeric strings. That's left to the user. One way that I do this is to use a password manager like [KeePassX](https://www.keepassx.org/), which seems secure and random enough. But note that it seems to me that the best way to generate Diceware passphrases is to actually use dice.
+
+## Similar Projects
+
+As Micah Lee [points out](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/), there are [a lot of projects on GitHub that deal with Diceware passphrases](a lot of projects on GitHub). However I will give a shout out to one I like that's a bit different: [Niceware](https://github.com/diracdeltas/niceware) ([demo](https://diracdeltas.github.io/niceware/)).
