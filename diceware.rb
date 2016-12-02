@@ -37,7 +37,9 @@ puts "Enter a random string containing only letters and numbers. Lowercase lette
 base_thirty_six_string = gets.chomp
 my_passphrase = Passphrase.new(base_thirty_six_string)
 
+puts ''
 puts "Your Diceware passphrase is:"
-puts my_passphrase.passphrase.join(' ')
 puts my_passphrase.passphrase.join('')
+puts my_passphrase.passphrase.join('-')
+puts my_passphrase.passphrase.join(' ')
 
