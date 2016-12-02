@@ -10,24 +10,6 @@ This code currently does not even attempt to use Ruby or any other method to gen
 
 Clone or download this repository. Run `diceware.rb` with `ruby diceware.rb`. Enter a random string of characters and/or integers. Your equivalent Diceware passphrase is outputted. 
 
-## Emoji Passphrase(?)
-
-Inspired by this tweet:
-
-<blockquote class="twitter-tweet" data-lang="en"><p lang="es" dir="ltr"><a href="https://twitter.com/sts10">@sts10</a> emoji</p>&mdash; yan (@bcrypt) <a href="https://twitter.com/bcrypt/status/799367321466744832">November 17, 2016</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-I thought it'd be fun to take the roughly 1,296 emojis from [a Ruby gem called Rumoji](https://github.com/mwunsch/rumoji) and also give users an "emoji passphrase" by taking the random character input and converting it to a series of emoji. 
-
-It does this by converting each alpha-numeric character into an integer from 1 to 36, and then multiplying each pair of them to get a number from 1 to 1,296. Luckily, there are 1,308 emojis listed in the Rumoji gem's `lib`, so it worked out nicely.
-
-The script outputs the string of emojis both to the terminal and to an HTML document. Not all of the emojis are displaying for me on Mac, but this whole emoji part is pretty useless tbh. The Diceware passphrase part of it is, I think, unaffected by it though. 
-
-You can try this by first installing Rumoji with `gem install rumoji` then running `ruby emojiware.rb`.
-
-
 ## Similar Projects
 
 As Micah Lee [points out](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/), there are [a lot of projects on GitHub that deal with Diceware passphrases](a lot of projects on GitHub). However I will give a shout out to one I like that's a bit different: [Niceware](https://github.com/diracdeltas/niceware) ([demo](https://diracdeltas.github.io/niceware/)).
-
-If you're looking for a HEX code-to-emoji printer, checkout [emojiprint](https://github.com/sweis/emojiprint) by sweis.
